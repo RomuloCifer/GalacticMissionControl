@@ -165,3 +165,4 @@ def estatisticas_missoes():
         stats[missao.status] = stats.get(missao.status, 0) + 1
     
     return f"Total: {total} missões | " + " | ".join([f"{status}: {count}" for status, count in stats.items()])
+#Testing Git
